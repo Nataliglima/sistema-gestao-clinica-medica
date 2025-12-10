@@ -1,40 +1,40 @@
 <<<<<<< HEAD
 # 🏥 HealthAPI - Sistema de Gestão de Clínica
-
-API REST moderna para gerenciamento de pacientes, consultas e usuários de uma clínica médica.  
-Sistema desenvolvido com **FastAPI**, utilizando autenticação JWT, logs de acesso (LGPD) e diferentes níveis de permissão.
+API RESTful desenvolvida com FastAPI para gerenciamento completo de clínicas médicas, incluindo cadastro de pacientes, agendamento de consultas, autenticação segura e logs de auditoria em conformidade com a LGPD.
 
 ---
 
 ## 📋 Sobre o Projeto
 
-Este backend foi desenvolvido para fins acadêmicos, seguindo práticas profissionais como:
+Sistema desenvolvido como projeto final da disciplina de Desenvolvimento Back-end do curso de Análise e Desenvolvimento de Sistemas da UNINTER.
+✨ Funcionalidades
 
-- Estrutura modular organizada
-- Autenticação segura com JWT
-- Hash de senha com Bcrypt
-- CRUD completo de pacientes e consultas
-- Controle de acesso por tipo de usuário (admin, médico, paciente)
-- Registro de logs para conformidade com a LGPD
-- Documentação automática via Swagger
+🔐 Autenticação JWT - Sistema seguro de login com tokens
+👥 Gestão de Usuários - Três perfis: Admin, Médico e Paciente
+🩺 Cadastro de Pacientes - CRUD completo com dados médicos
+📅 Agendamento de Consultas - Sistema de marcação e gerenciamento
+📊 Logs de Auditoria - Registro de todas as operações (LGPD)
+🔒 Criptografia de Senhas - Bcrypt para máxima segurança
+✅ Validação de Dados - Pydantic para entrada segura
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Python 3.10+**
-- **FastAPI**
-- **SQLAlchemy**
-- **SQLite**
-- **Pydantic**
-- **JWT (PyJWT)**
-- **Bcrypt**
-- **Uvicorn** (Servidor ASGI)
+-Python 3.11+
+FastAPI - Framework web moderno e rápido
+SQLAlchemy - ORM para banco de dados
+SQLite - Banco de dados (desenvolvimento)
+Pydantic - Validação de dados
+JWT - Autenticação via tokens
+Bcrypt - Criptografia de senhas
+Uvicorn - Servidor ASGI
 
----
+📦 Instalação
+Pré-requisitos
 
-## 📦 Instalação e Configuração
-
+Python 3.11 ou superior
+pip (gerenciador de pacotes Python)
 ### 1️⃣ Clone o repositório
 
 ```bash
