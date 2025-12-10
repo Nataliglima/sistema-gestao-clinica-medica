@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏥 HealthAPI - Sistema de Gestão de Clínica
 
 API REST moderna para gerenciamento de pacientes, consultas e usuários de uma clínica médica.  
@@ -39,3 +40,7 @@ Este backend foi desenvolvido para fins acadêmicos, seguindo práticas profissi
 ```bash
 git clone <seu-repositorio>
 cd projeto-backend-saude
+
+# sistema-gestao-clinica-medica
+Sistema de Gestão de Clínica Médica - API RESTful com FastAPI
+
